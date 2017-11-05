@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#b3e5fc"
+    tools:context="com.example.kohl.forevergears20.MainScreen"
+    tools:showIn="@layout/app_bar_main_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSpeech"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_volume_up_black_24dp"
+        android:id="@+id/btnSpeak"
+        android:layout_alignTop="@+id/btnListen"
+        android:layout_alignParentEnd="true"
+        android:onClick="OnSpeak (MainScreen)" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_mic_black_24dp"
+        android:id="@+id/btnListen"
+        android:onClick="OnListen"
+        android:layout_alignTop="@+id/txtItem"
+        android:layout_toStartOf="@+id/btnSpeak" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="21dp"
+        android:id="@+id/txtItem"
+        android:hint="Item"
+        android:layout_below="@+id/tvSpeech"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnListen" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStopSk"
+        android:layout_below="@+id/txtItem"
+        android:layout_alignParentEnd="true"
+        android:text="Stop Speech"
+        android:onClick="OnSpeak" />
+
+    <Button
+        android:text="Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRead"
+        android:onClick="OnRead"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="27dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave"
+        android:onClick="OnSave"
+        android:layout_marginEnd="19dp"
+        android:layout_alignBaseline="@+id/btnRead"
+        android:layout_alignBottom="@+id/btnRead"
+        android:layout_toStartOf="@+id/tvSpeech" />
+</RelativeLayout>

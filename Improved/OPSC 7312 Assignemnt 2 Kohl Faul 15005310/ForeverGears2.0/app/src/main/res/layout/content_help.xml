@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kohl.forevergears20.Help"
+    tools:showIn="@layout/app_bar_help">
+
+    <TextView
+        android:text="If you have not Signed Up then You Cannot Login Yet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="47dp"
+        android:id="@+id/txtHelp1" />
+
+    <TextView
+        android:text="Once you have Signed Up you can now login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHelp1"
+        android:layout_alignStart="@+id/txtHelp1"
+        android:layout_marginTop="36dp"
+        android:id="@+id/txtHelp2" />
+
+    <TextView
+        android:text="Now you be able to save items and read them from the database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHelp2"
+        android:layout_alignStart="@+id/txtHelp2"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txtHelp3" />
+
+    <TextView
+        android:text="Using the speech to text is simple just use this buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHelp3"
+        android:layout_alignStart="@+id/txtHelp3"
+        android:layout_marginTop="56dp"
+        android:id="@+id/txtHelp4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_volume_up_black_24dp"
+        android:id="@+id/imageButton3"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtHelp4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_mic_black_24dp"
+        android:layout_below="@+id/txtHelp4"
+        android:layout_alignStart="@+id/imageButton3" />
+
+    <TextView
+        android:text="Using the Text to speech is simple. Use this button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHelp5"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignStart="@+id/txtHelp4" />
+</RelativeLayout>

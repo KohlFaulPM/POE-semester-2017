@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "105748962818",
+    "firebase_url": "https://forevergears20-6e31c.firebaseio.com",
+    "project_id": "forevergears20-6e31c",
+    "storage_bucket": "forevergears20-6e31c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105748962818:android:5e7800c8df747a0d",
+        "android_client_info": {
+          "package_name": "com.example.kohl.forevergears20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105748962818-volpcbgt4lklb0mk4jkrm5q6e3jcv8p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kohl.forevergears20",
+            "certificate_hash": "1d29bd53a0007e6c01845afdaf819bb530ef29da"
+          }
+        },
+        {
+          "client_id": "105748962818-jnokar747212t42lf32khmkhm154ha2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfT9OQFXfv0YKDfKv4vc4lmKF11J3_q40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105748962818-jnokar747212t42lf32khmkhm154ha2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_signup"
+            android:icon="@mipmap/ic_tag_faces_black_24dp"
+            android:title="Sign Up" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_supervisor_account_black_24dp"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Help" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
